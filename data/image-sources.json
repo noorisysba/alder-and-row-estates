@@ -1,0 +1,248 @@
+{
+  "hero": {
+    "url": "https://images.unsplash.com/photo-1539875079575-43d11bef9687",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "london": {
+    "url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "notting-hill": {
+    "url": "https://images.unsplash.com/photo-1717085417855-5b99ee95ffe1",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "street": {
+    "url": "https://images.unsplash.com/photo-1691894551501-96d4d0074b9c",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "townhouse": {
+    "url": "https://images.unsplash.com/photo-1733234976433-c2b3b0559afb",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-1": {
+    "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-2": {
+    "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-3": {
+    "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-4": {
+    "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-5": {
+    "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-6": {
+    "url": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-7": {
+    "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-8": {
+    "url": "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-9": {
+    "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-10": {
+    "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498f",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-11": {
+    "url": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "living-12": {
+    "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "kitchen-1": {
+    "url": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "kitchen-2": {
+    "url": "https://images.unsplash.com/photo-1556911220-bff31c812dba",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "kitchen-3": {
+    "url": "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "bedroom-1": {
+    "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "bedroom-2": {
+    "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "bedroom-3": {
+    "url": "https://images.unsplash.com/photo-1505693314120-0d443867891c",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "bathroom-1": {
+    "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "bathroom-2": {
+    "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-1": {
+    "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-2": {
+    "url": "https://images.unsplash.com/photo-1497366811353-6870744d04b2",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-3": {
+    "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-4": {
+    "url": "https://images.unsplash.com/photo-1497366216548-37526070297c",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-5": {
+    "url": "https://images.unsplash.com/photo-1497366858526-0766cadbe8fa",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-6": {
+    "url": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "office-7": {
+    "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "retail": {
+    "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "garden": {
+    "url": "https://images.unsplash.com/photo-1558904541-efa843a96f01",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "exterior": {
+    "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "marylebone": {
+    "url": "https://images.unsplash.com/photo-1650435522781-dc850735206f",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "mayfair": {
+    "url": "https://images.unsplash.com/photo-1692820338246-11cb8571f696",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "kensington": {
+    "url": "https://images.unsplash.com/photo-1665428479936-3e10f50e4697",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "chelsea": {
+    "url": "https://images.unsplash.com/photo-1741031551126-c2e2c4ed4a4f",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "knightsbridge": {
+    "url": "https://images.unsplash.com/photo-1586111042784-3c48aa80fb47",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "westminster": {
+    "url": "https://images.unsplash.com/photo-1486299267070-83823f5448dd",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "covent-garden": {
+    "url": "https://images.unsplash.com/photo-1756934535926-bb6363c535c9",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "islington": {
+    "url": "https://images.unsplash.com/photo-1651964723487-722c8acc07d6",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "canary-wharf": {
+    "url": "https://images.unsplash.com/photo-1705765274264-1957678ed7fd",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "battersea": {
+    "url": "https://images.unsplash.com/photo-1684788600824-b75db04ab819",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "richmond": {
+    "url": "https://images.unsplash.com/photo-1595486976069-08e758178403",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "hampstead": {
+    "url": "https://images.unsplash.com/photo-1715964301154-3012466ae09f",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "fitzrovia": {
+    "url": "https://images.unsplash.com/photo-1779446934129-157a30e92853",
+    "licence": "https://unsplash.com/license",
+    "illustrative": true
+  },
+  "belgravia": {
+    "url": "https://commons.wikimedia.org/wiki/File:11a_Belgrave_Square,_Belgravia,_October_2022_02.jpg",
+    "licence": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "illustrative": true,
+    "attribution": "No Swan So Fine, CC BY-SA 4.0. Resized, compressed and displayed with a responsive crop. These image adaptations remain CC BY-SA 4.0."
+  }
+}
