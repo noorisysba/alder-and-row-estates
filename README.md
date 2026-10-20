@@ -42,6 +42,21 @@ The production build exports all routes to `out/` for static hosting. `npm start
 
 Audit data, filters and assets with `node scripts/audit.mjs`. With the server running, use `node scripts/audit.mjs --routes` to check all 58 public routes.
 
+## GitHub Pages
+
+The live GitHub Pages site is https://noorisysba.github.io/alder-and-row-estates/.
+Pushing to GitHub's `main` branch runs `.github/workflows/pages.yml`, checks the project, exports it and deploys the `out` directory. Pages must use **GitHub Actions** as its publishing source.
+
+The workflow sets `NEXT_PUBLIC_BASE_PATH` from the Pages configuration. Leave this variable unset for a normal root-hosted build. To preview a Pages build locally in PowerShell:
+
+```powershell
+$env:NEXT_PUBLIC_BASE_PATH = "/alder-and-row-estates"
+npm run build
+npm start
+```
+
+Then open http://localhost:3000/alder-and-row-estates/. Remove the variable with `Remove-Item Env:NEXT_PUBLIC_BASE_PATH` before returning to root-hosted development.
+
 ## Presentation limitations
 
 All properties, addresses, prices, availability, dimensions, EPC ratings, council tax bands, testimonials and company details are fictional. Stock photographs are illustrative and may show different real spaces; they never represent the named address. Interiors are grouped by broad visual style rather than actual property photo shoots.

@@ -8,6 +8,7 @@ import { emptyFilters, Filters, filterProperties } from "@/lib/filter";
 import { PropertyCard, useFavourites } from "./ui";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { basePath } from "@/lib/paths";
 export function BackToSearch({ category }: { category: string }) {
   const params = useSearchParams();
   const from = params.get("from");
@@ -146,7 +147,7 @@ export function ListingExplorer({
     window.history.replaceState(
       null,
       "",
-      `${shortlist ? "/shortlist" : "/" + category}${q.size ? "?" + q : ""}`,
+      `${basePath}${shortlist ? "/shortlist" : "/" + category}${q.size ? "?" + q : ""}`,
     );
   }
   const types = Array.from(new Set(pool.map((p) => p.type)));

@@ -2,6 +2,7 @@ import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 const root = path.resolve("out");
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const types = {
   ".html": "text/html; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
@@ -17,9 +18,20 @@ const types = {
 };
 createServer(async (req, res) => {
   try {
+    const pathname = decodeURIComponent(
+      new URL(req.url, "http://localhost").pathname,
+    );
+    if (
+      basePath &&
+      pathname !== basePath &&
+      !pathname.startsWith(basePath + "/")
+    ) {
+      res.writeHead(404).end("Page not found.");
+      return;
+    }
     let file = path.resolve(
       root,
-      "." + decodeURIComponent(new URL(req.url, "http://localhost").pathname),
+      "." + (pathname.slice(basePath.length) || "/"),
     );
     if (file !== root && !file.startsWith(root + path.sep)) {
       res.writeHead(403).end();
@@ -46,5 +58,7 @@ createServer(async (req, res) => {
     res.writeHead(500).end("Unable to load this page.");
   }
 }).listen(Number(process.env.PORT || 3000), "0.0.0.0", () =>
-  console.log(`Static preview: http://localhost:${process.env.PORT || 3000}`),
+  console.log(
+    `Static preview: http://localhost:${process.env.PORT || 3000}${basePath}/`,
+  ),
 );

@@ -27,6 +27,7 @@ import {
 } from "lucide-react";
 import { agency } from "@/data/settings";
 import { money, Property } from "@/data/properties";
+import { assetPath } from "@/lib/paths";
 export function Photo({
   name,
   alt,
@@ -40,8 +41,8 @@ export function Photo({
 }) {
   return (
     <img
-      src={`/assets/${name}.jpg`}
-      srcSet={`/assets/${name}-640.webp 640w, /assets/${name}-1280.webp 1280w${name === "hero" ? `, /assets/${name}-1920.webp 1920w` : ""}`}
+      src={assetPath(`/assets/${name}.jpg`)}
+      srcSet={`${assetPath(`/assets/${name}-640.webp`)} 640w, ${assetPath(`/assets/${name}-1280.webp`)} 1280w${name === "hero" ? `, ${assetPath(`/assets/${name}-1920.webp`)} 1920w` : ""}`}
       alt={alt}
       className={className}
       loading={priority ? "eager" : "lazy"}
@@ -55,7 +56,7 @@ export function Photo({
       onError={(e) => {
         if (!e.currentTarget.src.endsWith("/assets/living-1.jpg")) {
           e.currentTarget.srcset = "";
-          e.currentTarget.src = "/assets/living-1.jpg";
+          e.currentTarget.src = assetPath("/assets/living-1.jpg");
         }
       }}
     />
