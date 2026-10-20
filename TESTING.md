@@ -14,6 +14,7 @@ Checked locally on 20 October 2026.
 - Responsive checks: 1440px desktop, 768px tablet and 390px mobile; no horizontal overflow on inspected pages. Mobile menu and expandable listing filters checked.
 - Fresh homepage browser session: no console errors or warnings and no broken loaded images.
 - Publishing update: removed both bottom hero captions, enabled a static export of every property route and preserved filtered back-to-search navigation in the browser. Static production build, TypeScript, lint and catalogue audit passed.
+- Typography update: enlarged body copy, navigation, controls, labels, property facts and supporting text; adjusted card grids and spacing. Homepage, listings, property detail and contact checked at 390px, 768px, 1100px and 1440px without horizontal overflow.
 
 The saved homepage screenshot is in `docs/homepage-preview.jpg`.
 

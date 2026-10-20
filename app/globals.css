@@ -23,7 +23,7 @@ body {
   margin: 0;
   background: var(--ivory);
   color: var(--ink);
-  font: 14px/1.7 var(--sans);
+  font: 17px/1.7 var(--sans);
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -120,7 +120,7 @@ textarea:focus-visible {
   padding-block: 88px;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 2px;
   font-weight: 600;
   display: block;
@@ -135,7 +135,7 @@ textarea:focus-visible {
   color: white;
   padding: 16px 23px;
   min-height: 50px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   border: 1px solid var(--sage);
   white-space: nowrap;
@@ -145,7 +145,7 @@ textarea:focus-visible {
   transform: translateY(-1px);
 }
 .button.small {
-  font-size: 10px;
+  font-size: 13px;
   padding: 12px 15px;
   min-height: 42px;
   gap: 12px;
@@ -162,7 +162,7 @@ textarea:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 15px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 550;
   border-bottom: 1px solid #a9b2a3;
   padding-bottom: 7px;
@@ -185,12 +185,12 @@ textarea:focus-visible {
   background: var(--sage-light);
 }
 .note {
-  font-size: 11px;
+  font-size: 14px;
   color: #74776e;
   line-height: 1.65;
 }
 .tiny {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--body);
 }
 .skip-link {
@@ -234,7 +234,7 @@ textarea:focus-visible {
 }
 .wordmark span {
   font-family: var(--sans);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 3.2px;
   text-transform: uppercase;
   display: flex;
@@ -252,7 +252,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   gap: 24px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .main-nav > a {
   position: relative;
@@ -283,7 +283,7 @@ textarea:focus-visible {
   position: absolute;
   right: -8px;
   top: -10px;
-  font-size: 9px;
+  font-size: 12px;
   background: var(--sage);
   color: white;
   border-radius: 50%;
@@ -318,7 +318,7 @@ textarea:focus-visible {
   padding-top: 105px;
 }
 .hero-copy .eyebrow {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 2.4px;
   color: #f0eee5;
   margin-bottom: 25px;
@@ -333,14 +333,14 @@ textarea:focus-visible {
 }
 .hero-copy p {
   color: #f4f3ec;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.8;
 }
 .hero-discover {
   display: inline-flex;
   align-items: center;
   gap: 30px;
-  font-size: 12px;
+  font-size: 16px;
   border-bottom: 1px solid #ffffff80;
   padding-bottom: 7px;
   margin-top: 9px;
@@ -352,7 +352,7 @@ textarea:focus-visible {
   right: 50px;
   display: flex;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 1.8px;
 }
 .search-wrap {
@@ -377,7 +377,7 @@ textarea:focus-visible {
 .search-tabs button {
   min-width: 112px;
   padding: 10px 25px;
-  font-size: 11px;
+  font-size: 14px;
   border-bottom: 2px solid transparent;
 }
 .search-tabs button[aria-selected="true"] {
@@ -396,7 +396,7 @@ textarea:focus-visible {
   display: block;
   padding: 0 25px;
   border-right: 1px solid var(--line);
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 600;
   letter-spacing: 1.5px;
 }
@@ -414,7 +414,7 @@ textarea:focus-visible {
   width: 100%;
   padding: 6px 0 0;
   color: #50594f;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0;
   font-weight: 400;
   outline-offset: 1px;
@@ -430,7 +430,7 @@ textarea:focus-visible {
   margin-top: 5px;
 }
 .hero-search .button {
-  font-size: 10px;
+  font-size: 13px;
   padding: 16px 19px;
   gap: 11px;
 }
@@ -447,11 +447,11 @@ textarea:focus-visible {
   font-size: 21px;
 }
 .intro-strip > p {
-  font-size: 11px;
+  font-size: 14px;
   margin: 0;
 }
 .intro-strip > .text-link {
-  font-size: 11px;
+  font-size: 14px;
 }
 .section-heading {
   display: flex;
@@ -468,11 +468,11 @@ textarea:focus-visible {
 }
 .section-heading p {
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 .section-heading > .text-link {
   margin-bottom: 7px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .property-grid {
   display: grid;
@@ -510,7 +510,7 @@ textarea:focus-visible {
   position: absolute;
   left: 15px;
   top: 15px;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 600;
   background: #fdfdf9ed;
   padding: 5px 9px;
@@ -564,13 +564,13 @@ textarea:focus-visible {
 }
 .card-content h3 {
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0 0 4px;
   line-height: 1.5;
 }
 .card-content > p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 0 0 17px;
   color: #7b7f75;
 }
@@ -579,7 +579,7 @@ textarea:focus-visible {
   gap: 17px;
   padding-bottom: 20px;
   color: #737b70;
-  font-size: 10px;
+  font-size: 13px;
 }
 .property-facts > span {
   display: flex;
@@ -595,7 +595,7 @@ textarea:focus-visible {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  font-size: 8px;
+  font-size: 11px;
   padding-block: 13px;
   color: #80877b;
 }
@@ -609,7 +609,7 @@ textarea:focus-visible {
   margin-top: 25px;
 }
 .carousel-footer > span {
-  font-size: 10px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -666,7 +666,7 @@ textarea:focus-visible {
   margin-bottom: 25px;
 }
 .story-copy > p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .story-copy .text-link {
@@ -698,7 +698,7 @@ textarea:focus-visible {
   font-size: 23px;
 }
 .services-home p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.9;
   max-width: 215px;
   min-height: 65px;
@@ -743,7 +743,7 @@ textarea:focus-visible {
   z-index: 1;
 }
 .area-card span {
-  font-size: 7px;
+  font-size: 10px;
   letter-spacing: 1.1px;
 }
 .area-card h3 {
@@ -768,7 +768,7 @@ textarea:focus-visible {
   font-size: 23px;
 }
 .approach p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .valuation-cta {
@@ -786,11 +786,11 @@ textarea:focus-visible {
   font-size: 43px;
 }
 .valuation-cta p {
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 28px;
 }
 .valuation-cta .button {
-  font-size: 10px;
+  font-size: 13px;
 }
 .valuation-cta > img {
   max-height: 460px;
@@ -815,7 +815,7 @@ textarea:focus-visible {
   margin: 0 auto 26px;
 }
 .testimonial p {
-  font-size: 11px;
+  font-size: 14px;
   margin: 0 0 8px;
 }
 .contact-band {
@@ -832,7 +832,7 @@ textarea:focus-visible {
   font-size: 43px;
 }
 .contact-grid > div > p {
-  font-size: 12px;
+  font-size: 16px;
 }
 .contact-details {
   margin: 35px 0;
@@ -843,7 +843,7 @@ textarea:focus-visible {
   gap: 17px;
   align-items: flex-start;
   margin-bottom: 23px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .contact-details svg {
   color: #7b8971;
@@ -852,7 +852,7 @@ textarea:focus-visible {
 }
 .contact-details small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: #85897e;
   margin-top: 3px;
 }
@@ -870,7 +870,7 @@ textarea:focus-visible {
   font-size: 28px;
 }
 .form-panel > p {
-  font-size: 12px;
+  font-size: 16px;
 }
 .form-grid {
   display: grid;
@@ -879,7 +879,7 @@ textarea:focus-visible {
 }
 .form-grid label {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   min-width: 0;
 }
@@ -897,7 +897,7 @@ textarea {
   padding: 12px 13px;
   border-radius: 0;
   min-height: 45px;
-  font-size: 12px;
+  font-size: 16px;
   outline-color: var(--gold);
 }
 .form-grid input,
@@ -912,7 +912,7 @@ textarea {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.7;
   color: var(--body);
   margin-block: 22px;
@@ -929,12 +929,12 @@ textarea {
 }
 .enquiry-form > .button {
   width: 100%;
-  font-size: 11px;
+  font-size: 14px;
 }
 .enquiry-form > .note {
   text-align: center;
   margin: 12px 0 0;
-  font-size: 9px;
+  font-size: 12px;
 }
 .form-success {
   padding: 35px 5px;
@@ -950,10 +950,10 @@ textarea {
   margin-bottom: 25px;
 }
 .form-success p {
-  font-size: 13px;
+  font-size: 16px;
 }
 .form-success .eyebrow {
-  font-size: 9px;
+  font-size: 12px;
 }
 .form-success h2 {
   font-size: 30px;
@@ -977,22 +977,22 @@ footer {
   font-size: 33px;
 }
 .footer-top .wordmark span {
-  font-size: 7px;
+  font-size: 10px;
 }
 .footer-top > div:first-child > p {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 25px;
   line-height: 1.9;
 }
 .footer-top h3 {
   font-family: var(--sans);
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 22px;
 }
 .footer-top > div > a:not(.wordmark) {
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: 9px;
   color: var(--body);
 }
@@ -1000,18 +1000,18 @@ footer {
   color: var(--gold);
 }
 .footer-top p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.9;
 }
 .footer-top small {
-  font-size: 9px;
+  font-size: 12px;
 }
 .footer-bottom {
   border-top: 1px solid var(--line);
   padding-block: 20px;
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--body);
 }
 .footer-bottom p {
@@ -1022,7 +1022,7 @@ footer {
   gap: 25px;
 }
 .disclaimer {
-  font-size: 9px;
+  font-size: 12px;
   color: #85887e;
   padding-bottom: 25px;
   line-height: 1.8;
@@ -1033,7 +1033,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
-  font-size: 10px;
+  font-size: 13px;
   color: #818779;
   padding: 24px 0 12px;
 }
@@ -1053,7 +1053,7 @@ footer {
   line-height: 1.2;
 }
 .page-heading > p {
-  font-size: 14px;
+  font-size: 17px;
   max-width: 650px;
   line-height: 1.85;
   margin: 0;
@@ -1077,19 +1077,19 @@ footer {
   align-items: end;
 }
 .listing-filters > label {
-  font-size: 10px;
+  font-size: 13px;
   min-width: 0;
   font-weight: 500;
 }
 .listing-filters input,
 .listing-filters select {
   margin-top: 7px;
-  font-size: 11px;
+  font-size: 14px;
   padding: 11px;
   min-height: 43px;
 }
 .reset-filters {
-  font-size: 10px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1107,7 +1107,7 @@ footer {
   padding: 28px 0;
 }
 .results-bar p {
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
 }
 .results-bar strong {
@@ -1118,7 +1118,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 10px;
+  font-size: 13px;
   white-space: nowrap;
 }
 .results-bar select {
@@ -1126,7 +1126,7 @@ footer {
   border: 0;
   min-height: 35px;
   padding: 6px;
-  font-size: 11px;
+  font-size: 14px;
   width: auto;
 }
 .load-more {
@@ -1134,10 +1134,10 @@ footer {
   margin-block: 40px 25px;
 }
 .load-more p {
-  font-size: 10px;
+  font-size: 13px;
 }
 .load-more .button {
-  font-size: 11px;
+  font-size: 14px;
 }
 .mobile-filter {
   display: none;
@@ -1171,7 +1171,7 @@ footer {
 .all-areas .area-card span {
   text-transform: none;
   letter-spacing: 0.5px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .all-areas .area-card h3 {
   font-size: 30px;
@@ -1204,12 +1204,12 @@ footer {
   gap: 100px;
 }
 .editorial-grid .lead {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.8;
   color: var(--ink);
 }
 .editorial-grid p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.95;
 }
 .area-details {
@@ -1225,15 +1225,15 @@ footer {
   font-size: 28px;
 }
 .area-details p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .area-details .eyebrow {
-  font-size: 9px;
+  font-size: 12px;
   color: #7e8a73;
 }
 .lead {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.9;
   max-width: 850px;
 }
@@ -1265,7 +1265,7 @@ footer {
   align-items: center;
   gap: 10px;
   padding: 12px 15px;
-  font-size: 10px;
+  font-size: 13px;
   background: #eeeee6;
   flex-wrap: wrap;
 }
@@ -1291,11 +1291,11 @@ footer {
   padding-right: 25px;
 }
 .service-row p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.9;
 }
 .service-row .button {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 13px;
 }
 .service-row.reverse > img {
@@ -1313,7 +1313,7 @@ footer {
   bottom: 15px;
   left: 20px;
   padding: 5px 10px;
-  font-size: 9px;
+  font-size: 12px;
   background: #faf9f5dc;
 }
 .values {
@@ -1328,7 +1328,7 @@ footer {
 }
 .values span {
   color: var(--gold);
-  font-size: 12px;
+  font-size: 16px;
   display: block;
   margin-bottom: 20px;
 }
@@ -1337,7 +1337,7 @@ footer {
   font-size: 27px;
 }
 .values p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .page-contact {
@@ -1372,7 +1372,7 @@ footer {
   margin-top: 35px;
 }
 .prose-page p {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 1.95;
 }
 .prose-page a {
@@ -1382,13 +1382,13 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .back-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 13px;
   margin: 10px 0 23px;
 }
 .detail-gallery {
@@ -1416,7 +1416,7 @@ footer {
   right: 18px;
   bottom: 18px;
   background: #ffffffed;
-  font-size: 10px;
+  font-size: 13px;
   padding: 8px 12px;
   display: flex;
   align-items: center;
@@ -1431,7 +1431,7 @@ footer {
   gap: 15px;
 }
 .media-actions > span {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--body);
 }
 .media-actions > div {
@@ -1442,7 +1442,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .media-actions button:hover {
   color: var(--gold);
@@ -1459,11 +1459,11 @@ footer {
   letter-spacing: -1px;
 }
 .detail-title .eyebrow {
-  font-size: 9px;
+  font-size: 12px;
   margin-bottom: 13px;
 }
 .detail-title p {
-  font-size: 12px;
+  font-size: 16px;
   margin: 0;
 }
 .detail-price {
@@ -1484,7 +1484,7 @@ footer {
   height: 38px;
 }
 .detail-price > p {
-  font-size: 10px;
+  font-size: 13px;
 }
 .detail-layout {
   display: grid;
@@ -1498,7 +1498,7 @@ footer {
   padding-block: 24px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  font-size: 12px;
+  font-size: 16px;
 }
 .detail-facts > span {
   display: flex;
@@ -1517,11 +1517,11 @@ footer {
   font-size: 31px;
 }
 .detail-section > p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.9;
 }
 .detail-section .eyebrow {
-  font-size: 9px;
+  font-size: 12px;
 }
 .highlights {
   display: grid;
@@ -1535,14 +1535,14 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 9px;
-  font-size: 12px;
+  font-size: 16px;
 }
 .highlights svg {
   color: #7a8a70;
 }
 .facts-table {
   margin-top: 25px;
-  font-size: 12px;
+  font-size: 16px;
 }
 .facts-table > div {
   display: flex;
@@ -1574,7 +1574,7 @@ footer {
 }
 .detail-enquiry .enquiry-form input,
 .detail-enquiry .enquiry-form textarea {
-  font-size: 11px;
+  font-size: 14px;
 }
 .detail-enquiry .full {
   grid-column: 1;
@@ -1583,7 +1583,7 @@ footer {
   font-size: 31px;
 }
 .detail-enquiry .form-panel > p {
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: 23px;
 }
 .modal {
@@ -1643,7 +1643,7 @@ footer {
   right: 18px;
 }
 .modal-caption {
-  font-size: 10px;
+  font-size: 13px;
   padding: 15px 25px;
   margin: 0;
   text-align: center;
@@ -1669,7 +1669,7 @@ footer {
 }
 .brochure p,
 .brochure li {
-  font-size: 12px;
+  font-size: 16px;
 }
 .tour {
   position: relative;
@@ -1682,7 +1682,7 @@ footer {
   background: #eeeee6;
 }
 .tour-caption > span {
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 .tour-caption h3 {
@@ -1690,10 +1690,10 @@ footer {
   margin-top: 15px;
 }
 .tour-caption p {
-  font-size: 11px;
+  font-size: 14px;
 }
 .tour-caption .button {
-  font-size: 11px;
+  font-size: 14px;
   min-height: 40px;
   padding: 10px 15px;
 }
@@ -1735,7 +1735,7 @@ footer {
 @media (max-width: 1250px) {
   .main-nav {
     gap: 16px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .header-inner {
     width: calc(100% - 48px);
@@ -1760,7 +1760,7 @@ footer {
     padding-inline: 15px;
   }
   .hero-search .button {
-    font-size: 9px;
+    font-size: 12px;
     padding-inline: 13px;
     gap: 8px;
   }
@@ -1778,7 +1778,7 @@ footer {
   }
   .property-facts {
     gap: 12px;
-    font-size: 9px;
+    font-size: 12px;
   }
   .contact-grid {
     gap: 65px;
@@ -1825,7 +1825,7 @@ footer {
     align-items: stretch;
     gap: 0;
     box-shadow: 0 15px 20px #00000012;
-    font-size: 15px;
+    font-size: 17px;
     max-height: calc(100dvh - 92px);
     overflow-y: auto;
   }
@@ -1843,7 +1843,7 @@ footer {
   }
   .hero-search .button {
     grid-column: 1/-1;
-    font-size: 12px;
+    font-size: 16px;
   }
   .hero-search .button > svg:last-child {
     display: block;
@@ -1935,7 +1935,7 @@ footer {
     font-size: 19px;
   }
   .card-content h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .property-facts {
     flex-wrap: wrap;
@@ -1968,7 +1968,7 @@ footer {
   }
   .detail-facts {
     gap: 18px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .detail-facts > span {
     gap: 7px;
@@ -2003,7 +2003,7 @@ footer {
     font-size: 26px;
   }
   .wordmark span {
-    font-size: 7px;
+    font-size: 10px;
     margin-top: 8px;
     letter-spacing: 2.5px;
   }
@@ -2031,21 +2031,21 @@ footer {
     line-height: 1.15;
   }
   .hero-copy .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1.7px;
   }
   .hero-copy p {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.85;
   }
   .hero-discover {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-bottom {
     left: 20px;
     right: 20px;
     bottom: 55px;
-    font-size: 6px;
+    font-size: 10px;
     letter-spacing: 1.1px;
   }
   .hero-bottom > span:last-child {
@@ -2062,7 +2062,7 @@ footer {
   }
   .search-tabs button {
     min-width: 95px;
-    font-size: 10px;
+    font-size: 13px;
     padding-inline: 20px;
   }
   .hero-search form {
@@ -2089,7 +2089,7 @@ footer {
   }
   .hero-search input,
   .hero-search select {
-    font-size: 11px;
+    font-size: 14px;
     min-height: 30px;
   }
   .intro-strip {
@@ -2102,11 +2102,11 @@ footer {
     margin-bottom: 12px;
   }
   .intro-strip > p {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 18px;
   }
   .intro-strip > .text-link {
-    font-size: 10px;
+    font-size: 13px;
   }
   .section-heading {
     display: block;
@@ -2116,10 +2116,10 @@ footer {
     font-size: 32px;
   }
   .section-heading .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .section-heading p {
-    font-size: 12px;
+    font-size: 16px;
   }
   .section-heading > .text-link {
     margin-top: 20px;
@@ -2149,13 +2149,13 @@ footer {
     width: 15px;
   }
   .card-content h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .card-content > p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .property-facts {
-    font-size: 9px;
+    font-size: 12px;
     gap: 10px;
     padding-bottom: 15px;
   }
@@ -2163,7 +2163,7 @@ footer {
     width: 13px;
   }
   .image-tag {
-    font-size: 6px;
+    font-size: 10px;
     left: 10px;
     top: 11px;
     padding: 4px 6px;
@@ -2179,7 +2179,7 @@ footer {
     width: 16px;
   }
   .card-foot {
-    font-size: 7px;
+    font-size: 10px;
   }
   .carousel-footer {
     margin-top: 20px;
@@ -2208,10 +2208,10 @@ footer {
     display: none;
   }
   .story-copy .eyebrow {
-    font-size: 9px;
+    font-size: 12px;
   }
   .story-copy p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .services-home {
     grid-template-columns: 1fr 1fr;
@@ -2233,7 +2233,7 @@ footer {
   }
   .services-home p {
     min-height: 70px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .services-home > a > svg:first-child {
     margin-bottom: 20px;
@@ -2253,7 +2253,7 @@ footer {
     font-size: 25px;
   }
   .area-card span {
-    font-size: 6px;
+    font-size: 10px;
   }
   .approach > div:last-child {
     grid-template-columns: 1fr;
@@ -2272,7 +2272,7 @@ footer {
     font-size: 25px;
   }
   .approach p {
-    font-size: 12px;
+    font-size: 16px;
     max-width: 500px;
   }
   .valuation-cta {
@@ -2283,7 +2283,7 @@ footer {
     padding: 37px 30px;
   }
   .valuation-cta .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .valuation-cta h2 {
     font-size: 39px;
@@ -2292,13 +2292,13 @@ footer {
     height: 280px;
   }
   .valuation-cta .button {
-    font-size: 10px;
+    font-size: 13px;
   }
   .testimonial {
     padding: 50px 15px 60px;
   }
   .testimonial .eyebrow {
-    font-size: 7px;
+    font-size: 10px;
     letter-spacing: 1.6px;
   }
   .testimonial blockquote {
@@ -2306,10 +2306,10 @@ footer {
     line-height: 1.65;
   }
   .testimonial .tiny {
-    font-size: 8px;
+    font-size: 11px;
   }
   .testimonial p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .contact-band {
     padding-block: 55px;
@@ -2326,7 +2326,7 @@ footer {
   }
   .contact-details > a,
   .contact-details > div {
-    font-size: 13px;
+    font-size: 16px;
   }
   .contact-details {
     margin-bottom: 10px;
@@ -2335,7 +2335,7 @@ footer {
     gap: 17px 13px;
   }
   .form-grid label {
-    font-size: 10px;
+    font-size: 13px;
   }
   footer {
     padding-top: 45px;
@@ -2354,7 +2354,7 @@ footer {
   }
   .footer-top > div:first-child > p {
     margin: 0;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.8;
   }
   .footer-top .wordmark {
@@ -2364,17 +2364,17 @@ footer {
     grid-column: 1/-1;
   }
   .footer-top > div > a:not(.wordmark) {
-    font-size: 11px;
+    font-size: 14px;
   }
   .footer-top h3 {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 16px;
   }
   .footer-top > div:last-child > p {
     max-width: 330px;
   }
   .footer-bottom {
-    font-size: 9px;
+    font-size: 12px;
     gap: 15px;
     align-items: center;
   }
@@ -2382,10 +2382,10 @@ footer {
     gap: 15px;
   }
   .disclaimer {
-    font-size: 8px;
+    font-size: 11px;
   }
   .breadcrumbs {
-    font-size: 9px;
+    font-size: 12px;
     gap: 10px;
     padding-top: 20px;
   }
@@ -2401,11 +2401,11 @@ footer {
     letter-spacing: -1px;
   }
   .page-heading .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     margin-bottom: 16px;
   }
   .page-heading > p {
-    font-size: 12px;
+    font-size: 16px;
   }
   .listing-filters {
     display: none;
@@ -2423,12 +2423,12 @@ footer {
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
     background: #eeeee6 !important;
   }
   .mobile-filter span {
     margin-left: auto;
-    font-size: 10px;
+    font-size: 13px;
   }
   .results-bar {
     padding-block: 20px;
@@ -2436,14 +2436,14 @@ footer {
     flex-wrap: wrap;
   }
   .results-bar p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .results-bar > label {
-    font-size: 9px;
+    font-size: 12px;
     gap: 5px;
   }
   .results-bar select {
-    font-size: 10px;
+    font-size: 13px;
     padding-right: 0;
   }
   .load-more {
@@ -2465,7 +2465,7 @@ footer {
     width: 17px;
   }
   .all-areas .area-card span {
-    font-size: 8px;
+    font-size: 11px;
     line-height: 1.5;
     display: block;
   }
@@ -2482,7 +2482,7 @@ footer {
     font-size: 21px;
   }
   .area-hero .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
   }
   .editorial-grid {
     grid-template-columns: 1fr;
@@ -2492,10 +2492,10 @@ footer {
     font-size: 37px;
   }
   .editorial-grid .lead {
-    font-size: 17px;
+    font-size: 18px;
   }
   .editorial-grid p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .area-details {
     gap: 30px;
@@ -2510,7 +2510,7 @@ footer {
   }
   .area-details p {
     margin: 0;
-    font-size: 13px;
+    font-size: 16px;
   }
   .area-cta {
     display: block;
@@ -2521,13 +2521,13 @@ footer {
     margin-bottom: 23px;
   }
   .area-cta .button {
-    font-size: 11px;
+    font-size: 14px;
   }
   .map iframe {
     height: 290px;
   }
   .map-caption {
-    font-size: 9px;
+    font-size: 12px;
     gap: 7px;
   }
   .map-caption > a {
@@ -2551,13 +2551,13 @@ footer {
     padding: 0;
   }
   .service-row .eyebrow {
-    font-size: 9px;
+    font-size: 12px;
   }
   .service-row h2 {
     font-size: 34px;
   }
   .service-row p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .service-list {
     padding-bottom: 15px;
@@ -2574,7 +2574,7 @@ footer {
     margin-bottom: 13px;
   }
   .values p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .page-contact {
     padding-bottom: 25px;
@@ -2586,7 +2586,7 @@ footer {
     font-size: 40px;
   }
   .prose-page p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .credits-list {
     grid-template-columns: 1fr 1fr;
@@ -2597,7 +2597,7 @@ footer {
     gap: 7px;
   }
   .gallery-count {
-    font-size: 8px;
+    font-size: 11px;
     left: 7px;
     right: 7px;
     bottom: 8px;
@@ -2617,10 +2617,10 @@ footer {
     gap: 20px;
   }
   .media-actions button {
-    font-size: 9px;
+    font-size: 12px;
   }
   .media-actions > span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .detail-title {
     display: block;
@@ -2649,7 +2649,7 @@ footer {
   }
   .detail-facts {
     gap: 25px;
-    font-size: 11px;
+    font-size: 14px;
     flex-wrap: wrap;
   }
   .detail-section {
@@ -2659,14 +2659,14 @@ footer {
     font-size: 29px;
   }
   .detail-section p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .highlights {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
   .highlights li {
-    font-size: 11px;
+    font-size: 14px;
   }
   .detail-enquiry {
     position: static;
@@ -2687,10 +2687,10 @@ footer {
     padding: 14px 17px;
   }
   .modal-head h2 {
-    font-size: 14px;
+    font-size: 17px;
   }
   .modal-caption {
-    font-size: 9px;
+    font-size: 12px;
     padding: 12px;
   }
   .lightbox {
@@ -2739,7 +2739,7 @@ footer {
     padding: 20px 17px;
   }
   .hero-search select {
-    font-size: 10px;
+    font-size: 13px;
   }
   .property-grid {
     grid-template-columns: 1fr;
@@ -2760,26 +2760,26 @@ footer {
     font-size: 25px;
   }
   .card-content h3 {
-    font-size: 13px;
+    font-size: 16px;
   }
   .card-content > p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .property-facts {
-    font-size: 11px;
+    font-size: 14px;
     gap: 22px;
   }
   .property-facts svg {
     width: 16px;
   }
   .card-foot {
-    font-size: 8px;
+    font-size: 11px;
   }
   .card-foot > span {
     display: inline;
   }
   .image-tag {
-    font-size: 8px;
+    font-size: 11px;
     padding: 5px 8px;
     top: 14px;
     left: 14px;
@@ -2813,7 +2813,7 @@ footer {
   }
   .services-home p {
     min-height: 100px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .home-areas .area-card {
     height: 255px;
@@ -2831,7 +2831,7 @@ footer {
     width: 17px;
   }
   .area-card span {
-    font-size: 5.5px;
+    font-size: 10px;
     letter-spacing: 0.7px;
   }
   .valuation-cta > div {
@@ -2876,7 +2876,7 @@ footer {
     font-size: 22px;
   }
   .all-areas .area-card span {
-    font-size: 7px;
+    font-size: 10px;
   }
   .area-hero h1 {
     font-size: 53px;
@@ -2909,7 +2909,7 @@ footer {
   }
   .detail-facts {
     gap: 17px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .highlights {
     grid-template-columns: 1fr;
@@ -2918,7 +2918,7 @@ footer {
     height: 55vh;
   }
   .gallery-count {
-    font-size: 8px;
+    font-size: 11px;
   }
   .gallery-count svg {
     display: none;
@@ -2933,5 +2933,435 @@ footer {
   *:after {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Readable type, with room for longer labels and comfortable scanning. */
+.main-nav {
+  font-size: 14px;
+  gap: 21px;
+}
+.hero-copy p {
+  font-size: 18px;
+  line-height: 1.75;
+}
+.hero-discover {
+  font-size: 15px;
+}
+.eyebrow {
+  line-height: 1.6;
+}
+.card-content h3 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.card-price {
+  font-size: 26px;
+}
+.property-facts {
+  font-size: 14px;
+  flex-wrap: wrap;
+  gap: 12px 17px;
+}
+.card-foot {
+  flex-wrap: wrap;
+  line-height: 1.6;
+}
+.form-grid label,
+.listing-filters > label {
+  font-size: 14px;
+}
+input:not([type="checkbox"]),
+select,
+textarea {
+  font-size: 16px;
+  min-height: 48px;
+}
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+  font-size: 16px;
+}
+.enquiry-form > .button {
+  font-size: 15px;
+}
+.consent {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.form-panel {
+  padding: 36px;
+}
+.form-grid {
+  gap: 21px 18px;
+}
+.detail-enquiry .enquiry-form input,
+.detail-enquiry .enquiry-form textarea {
+  font-size: 16px;
+}
+.detail-section > p,
+.area-details p,
+.editorial-grid p,
+.prose-page p {
+  font-size: 17px;
+  line-height: 1.85;
+}
+.detail-section .note,
+.editorial-grid .note {
+  font-size: 13px;
+}
+.story-copy > p,
+.approach p,
+.service-row p {
+  font-size: 17px;
+  line-height: 1.85;
+}
+.services-home p {
+  font-size: 16px;
+  min-height: 100px;
+}
+.services-home > a {
+  padding-inline: 28px;
+}
+.services-home h3 {
+  font-size: 25px;
+}
+.valuation-cta > div {
+  padding: 48px;
+}
+.valuation-cta .button {
+  white-space: normal;
+  text-align: left;
+}
+.valuation-cta p,
+.contact-grid > div > p,
+.page-heading > p,
+.section-heading p {
+  font-size: 17px;
+}
+.footer-top {
+  gap: 35px;
+  grid-template-columns: 1.2fr 1fr 1fr 1.6fr;
+}
+.footer-top h3 {
+  font-size: 14px;
+}
+.footer-top p,
+.footer-top > div > a:not(.wordmark) {
+  font-size: 14px;
+}
+.footer-top small,
+.disclaimer {
+  font-size: 12px;
+}
+.footer-bottom {
+  font-size: 13px;
+}
+.intro-strip {
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.intro-strip > p {
+  font-size: 15px;
+}
+.contact-details > a,
+.contact-details > div {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.contact-details small {
+  font-size: 12px;
+}
+.hero-search label {
+  font-size: 11px;
+  letter-spacing: 1.1px;
+}
+.hero-search input,
+.hero-search select {
+  font-size: 15px;
+}
+.hero-search .button {
+  font-size: 14px;
+  padding-inline: 20px;
+}
+.search-tabs button {
+  font-size: 14px;
+}
+.hero-search form {
+  grid-template-columns: 1.4fr 0.95fr 1.1fr auto;
+}
+.listing-filters input,
+.listing-filters select {
+  font-size: 15px;
+}
+.results-bar p {
+  font-size: 15px;
+}
+.results-bar > label,
+.results-bar select {
+  font-size: 14px;
+}
+.text-link {
+  white-space: normal;
+}
+@media (max-width: 1250px) {
+  .main-nav {
+    gap: 14px;
+    font-size: 13px;
+  }
+  .hero-search .button {
+    font-size: 13px;
+    padding-inline: 16px;
+  }
+  .hero-search input,
+  .hero-search select {
+    font-size: 14px;
+  }
+  .footer-top {
+    grid-template-columns: 1.2fr 1fr 1fr;
+  }
+}
+@media (max-width: 1050px) {
+  .main-nav.open {
+    font-size: 17px;
+  }
+  .hero-search form {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+  .services-home > a {
+    padding-inline: 20px;
+  }
+  .services-home p {
+    min-height: 145px;
+  }
+  .valuation-cta > div {
+    padding: 35px;
+  }
+}
+@media (max-width: 900px) and (min-width: 761px) {
+  .property-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .featured-grid .property-card:nth-child(3) {
+    display: none;
+  }
+  .detail-layout {
+    grid-template-columns: 1fr;
+  }
+  .detail-enquiry {
+    position: static;
+  }
+  .detail-enquiry .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .detail-enquiry .full {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 760px) {
+  .hero-copy p {
+    font-size: 17px;
+  }
+  .hero-copy .eyebrow {
+    font-size: 11px;
+    letter-spacing: 1.4px;
+  }
+  .home-hero {
+    height: 590px;
+  }
+  .hero-search form {
+    grid-template-columns: 1fr 1fr;
+    gap: 22px 0;
+  }
+  .hero-search input,
+  .hero-search select {
+    font-size: 16px;
+  }
+  .hero-search .button {
+    font-size: 15px;
+  }
+  .search-tabs button {
+    font-size: 14px;
+  }
+  .hero-search label {
+    font-size: 11px;
+  }
+  .intro-strip > p {
+    font-size: 16px;
+  }
+  .card-content h3 {
+    font-size: 16px;
+  }
+  .card-price {
+    font-size: 25px;
+  }
+  .property-facts {
+    font-size: 13px;
+    gap: 10px 15px;
+  }
+  .property-grid {
+    grid-template-columns: 1fr;
+  }
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+  .featured-grid .property-card:nth-child(2) {
+    display: none;
+  }
+  .card-image {
+    aspect-ratio: 1.5;
+  }
+  .services-home p {
+    min-height: 125px;
+    font-size: 15px;
+  }
+  .services-home h3 {
+    font-size: 24px;
+  }
+  .services-home > a,
+  .services-home > a:first-child {
+    padding-inline: 20px;
+  }
+  .area-card span,
+  .all-areas .area-card span {
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+  .area-card h3 {
+    font-size: 25px;
+  }
+  .testimonial .eyebrow {
+    font-size: 11px;
+  }
+  .testimonial p {
+    font-size: 14px;
+  }
+  .testimonial .tiny {
+    font-size: 12px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-top > div:first-child > p {
+    font-size: 14px;
+  }
+  .footer-top > div > a:not(.wordmark),
+  .footer-top h3 {
+    font-size: 14px;
+  }
+  .footer-bottom {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .detail-enquiry .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .detail-enquiry .full {
+    grid-column: 1;
+  }
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+  .highlights li,
+  .facts-table {
+    font-size: 15px;
+  }
+  .detail-facts {
+    font-size: 14px;
+    gap: 18px;
+  }
+  .media-actions button {
+    font-size: 13px;
+  }
+  .media-actions > div {
+    flex-wrap: wrap;
+    gap: 12px 22px;
+  }
+  .results-bar {
+    align-items: flex-start;
+  }
+  .results-bar > label {
+    margin-left: auto;
+  }
+  .listing-filters input,
+  .listing-filters select {
+    font-size: 16px;
+  }
+  .form-grid label {
+    font-size: 14px;
+  }
+  .contact-grid .form-panel {
+    padding: 28px 23px;
+  }
+}
+@media (max-width: 430px) {
+  .hero-copy {
+    padding-top: 58px;
+  }
+  .hero-copy h1 {
+    font-size: 47px;
+  }
+  .hero-search input,
+  .hero-search select {
+    font-size: 15px;
+  }
+  .hero-search label:nth-child(2) {
+    padding-right: 10px;
+  }
+  .hero-search label:nth-child(3) {
+    padding-left: 10px;
+  }
+  .services-home {
+    grid-template-columns: 1fr;
+  }
+  .services-home > a {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .services-home > a:last-child {
+    border-bottom: 0;
+  }
+  .services-home p {
+    min-height: 0;
+    max-width: none;
+    font-size: 16px;
+  }
+  .services-home > a > svg:first-child {
+    margin-bottom: 18px;
+  }
+  .valuation-cta > div {
+    padding: 32px 25px;
+  }
+  .all-areas,
+  .home-areas {
+    grid-template-columns: 1fr;
+  }
+  .home-areas .area-card,
+  .all-areas .area-card {
+    height: 310px;
+  }
+  .area-card h3,
+  .all-areas .area-card h3 {
+    font-size: 29px;
+  }
+  .area-card > div {
+    left: 22px;
+    right: 22px;
+  }
+  .footer-top > div:first-child > p {
+    font-size: 14px;
+  }
+  .footer-top .wordmark span {
+    font-size: 10px;
+  }
+  .consent {
+    font-size: 13px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+  .map-caption {
+    font-size: 12px;
   }
 }
